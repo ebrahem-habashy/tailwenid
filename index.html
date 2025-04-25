@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Gym</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        body { font-family: 'Cairo', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-100">
+     
+    <header class="bg-black text-white shadow-lg fixed w-full z-50">
+        <nav class="container mx-auto px-6 py-3">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-bold">Smart Gym</div>
+                <div class="hidden md:flex space-x-8 space-x-reverse">
+                    <a href="#" class="hover:text-yellow-400">الرئيسية</a>
+                    <a href="#classes" class="hover:text-yellow-400">الفصول</a>
+                    <a href="#trainers" class="hover:text-yellow-400">المدربين</a>
+                    <a href="#pricing" class="hover:text-yellow-400">الأسعار</a>
+                    <a href="#contact" class="hover:text-yellow-400">اتصل بنا</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    
+    <section class="pt-32 pb-24 bg-gradient-to-r from-black to-gray-800 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-5xl font-bold mb-6">ابدأ رحلتك نحو حياة صحية</h1>
+            <p class="text-xl mb-8">انضم إلينا اليوم واحصل على تجربة تدريب فريدة</p>
+            <button class="bg-yellow-400 text-black font-bold py-3 px-8 rounded-full hover:bg-yellow-500 transition duration-300">
+                ابدأ الآن
+            </button>
+        </div>
+    </section>
+
+    
+    <section class="py-16">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105">
+                    <div class="text-4xl mb-4">💪</div>
+                    <h3 class="text-xl font-bold mb-2">معدات حديثة</h3>
+                    <p class="text-gray-600">أحدث المعدات الرياضية لتحقيق أفضل النتائج</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105">
+                    <div class="text-4xl mb-4">👥</div>
+                    <h3 class="text-xl font-bold mb-2">مدربين محترفين</h3>
+                    <p class="text-gray-600">فريق من المدربين المؤهلين لمساعدتك</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105">
+                    <div class="text-4xl mb-4">🎯</div>
+                    <h3 class="text-xl font-bold mb-2">برامج متخصصة</h3>
+                    <p class="text-gray-600">برامج تدريب مخصصة لأهدافك</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="classes" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">الفصول التدريبية</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
+                    <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48" class="w-full h-48 object-cover" alt="تدريب القوة">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">تدريب القوة</h3>
+                        <p class="text-gray-600">تمارين متنوعة لبناء القوة والعضلات</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
+                    <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a" class="w-full h-48 object-cover" alt="يوجا">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">يوجا</h3>
+                        <p class="text-gray-600">جلسات يوجا للاسترخاء والمرونة</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
+                    <img src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5" class="w-full h-48 object-cover" alt="كارديو">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">كارديو</h3>
+                        <p class="text-gray-600">تمارين لتحسين اللياقة القلبية</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="pricing" class="py-16 ">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">خطط الاشتراك</h2>
+            <div class="grid md:grid-cols-3 gap-8 ">
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105">
+                    <h3 class="text-2xl font-bold mb-4 ">أساسي</h3>
+                    <div class="text-4xl font-bold mb-4 ">600 جنيه</div>
+                    <ul class="mb-8 text-gray-600">
+                        <li class="mb-2">دخول النادي</li>
+                        <li class="mb-2">استخدام المعدات</li>
+                        <li class="mb-2">حصة تدريبية واحدة</li>
+                    </ul>
+                    <button class="bg-yellow-400 text-black font-bold py-2 px-6 rounded-full hover:bg-yellow-500 transition duration-300">
+                        اشترك الآن
+                    </button>
+                </div>
+                <div class="bg-black text-white p-8 rounded-lg shadow-lg text-center transform scale-105">
+                    <h3 class="text-2xl font-bold mb-4">احترافي</h3>
+                    <div class="text-4xl font-bold mb-4">800 جنيه</div>
+                    <ul class="mb-8">
+                        <li class="mb-2">جميع مميزات الأساسي</li>
+                        <li class="mb-2">مدرب شخصي</li>
+                        <li class="mb-2">حصص غير محدودة</li>
+                    </ul>
+                    <button class="bg-yellow-400 text-black font-bold py-2 px-6 rounded-full hover:bg-yellow-500 transition duration-300">
+                        اشترك الآن
+                    </button>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105">
+                    <h3 class="text-2xl font-bold mb-4">عائلي</h3>
+                    <div class="text-4xl font-bold mb-4">1000 [جنيه</div>
+                    <ul class="mb-8 text-gray-600">
+                        <li class="mb-2">اشتراك لـ 3 أفراد</li>
+                        <li class="mb-2">جميع المميزات</li>
+                        <li class="mb-2">خصم 15% على المكملات</li>
+                    </ul>
+                    <button class="bg-yellow-400 text-black font-bold py-2 px-6 rounded-full hover:bg-yellow-500 transition duration-300">
+                        اشترك الآن
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">اتصل بنا</h2>
+            <div class="max-w-lg mx-auto">
+                <form class="space-y-4">
+                    <div>
+                        <input type="text" placeholder="الاسم" class="w-full p-3 rounded-lg">
+                    </div>
+                    <div>
+                        <input type="email" placeholder="البريد الإلكتروني" class="w-full p-3 rounded-lg">
+                    </div>
+                    <div>
+                        <textarea placeholder="رسالتك" class="w-full p-3 rounded-lg h-32"></textarea>
+                    </div>
+                    <button class="bg-yellow-400 text-black font-bold py-3 px-8 rounded-full hover:bg-yellow-500 transition duration-300 w-full">
+                        إرسال
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-black text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>mart Gym 
+               ebrahem habashy   01029396548
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
